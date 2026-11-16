@@ -12,11 +12,11 @@
 
 
 pkgbase=linux-violet
-pkgver=7.2.15.violet1
+pkgver=7.3.4.violet1
 pkgrel=1
 pkgdesc='Linux-violet'
 url='https://github.com/Gipunto/linux-violet-arch'
-_schedfile='0001-linux7.2-rc1-bore-7.0.0.patch'
+_schedfile='0001-linux7.3-rc2-bore-7.0.0.patch'
 arch=(
   x86_64
 )
@@ -66,18 +66,18 @@ validpgpkeys=(
   647F28654894E3BD457199BE38DBBDC86092693E  # Greg Kroah-Hartman
   83BC8889351B5DEBBB68416EB8AC08600F108CDF  # Jan Alexander Steffens (heftig)
 )
-sha256sums=('d0f6b1d7324c937ccaeb5c4ca7084bfcf71db2edb3e2d3a31f0ad83a681809ab'
+sha256sums=('b11b6df8295e8e991ff040b71aaa4994a8b55caa23b6b092907f195b5840fd1f'
             'SKIP'
-            '58c4f43e0c1583a37774867efe8a8d7b1201d094feb304111da161791193a790'
+            '0bd7c69abfa671c377989c4795bcb3662a25904d4ec8dbda73204b5689405c2f'
             'SKIP'
-            '948aa495364332596d9f00fba1f90b2da04676a37faaeab9ef2390c44c7fbd83')
-sha256sums_x86_64=('fd6029491874bbad8c91d1be41e8b84c53aab9c9380255ec37cc82dffd716088')
-b2sums=('a1d1a6572667dfd75f7dde083a8d461db98e08bbc67cdd395e2d73a422ee487bd14392ce69b9511c386b63d9c3c02255978a33149278d6e3bace35937ceda495'
+            '0de0f56c2e3db14b4bb2797aa0362a623d4b7e39643add1da65f91a1cedcdcfd')
+sha256sums_x86_64=('53ecb688c086a8e98f66af43f25b3af20e27f3cf3a30f577bb8708414b93ebe1')
+b2sums=('9b75f615d0a03d6627d7e3db4397882d602161db13cd5efd6226e0e5c5f970d1baea676d9d01edd0f09ed0b7207b6421e6340f1b8e9bd4e8152491ddddcc9021'
         'SKIP'
-        '67c3a12310872c288ee5c6681fcd3f956103da1a7cf67f97a0bc2a1c2bfea6c4d7f916250eee79088d3e5c74e2e85a6145b3a605ed7527990c95e69454a9a455'
+        'b68e45a3a00532ae7719d5febc5cf487712f7290b2bba60e5bc5fdd693b7477693823f79ea8e9a27dbc66da7bf6c0cbd6cbcfb52a1b420a8d800ec64982a9d09'
         'SKIP'
-        '99a35a06bb9a02ed4ebb481397d3c9abf1f18beb784bb8ff1eead8e053cb83709b6e3d950241e5d638fef835c4f0bb004f0729bfb61aea85e2d6fc762d4ff92a')
-b2sums_x86_64=('ca3ddaea5192ecc04edc3187f0102794e335fa2e3b347fe9907350f201d7d680793217afb5474ac2a932900ae775a7544077e23c7d6591a752a6b238e39e9a06')
+        'cdff5790d6698313cf3e007257a13fd575b3e5c0d6a9661a69ccb66908b5aada4c1e18afecdea38fdf4ff0d0a0b00d9c42fac44443be43170f41ea332bbcbe8e')
+b2sums_x86_64=('95bcbf2c6d51b6c390f4fd60410a16282dc48e3dead2944d0a1a665b5630ef6278483e38b2720ea8a0ea1abbe7206d71b50bf688b5f2bc5e906e302573870048')
 
 # https://www.kernel.org/pub/linux/kernel/v7.x/sha256sums.asc
 

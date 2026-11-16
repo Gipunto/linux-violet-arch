@@ -7,3 +7,5 @@ Linux-violet kernel featuring:
  - CONFIG_NO_HZ_FULL set to y
  - CONFIG_PREEMPT set to y
  - CONFIG_NTSYNC set to y
+
+Updated to 7.3.4
